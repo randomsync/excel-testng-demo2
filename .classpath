@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/excel-testng-0.7.jar"/>
-	<classpathentry kind="lib" path="lib/testng-6.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/testng"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/excel-testng"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<suite name="Suite" parallel="false">
+	<groups>
+		<dependencies>
+			<group name="a" depends-on="init" />
+			<group name="b" depends-on="a" />
+		</dependencies>
+	</groups>
+	<test name="DependencyTestA">
+		<classes>
+			<class name="net.randomsync.testng.excel.demo.DependencyTest">
+			</class>
+		</classes>
+	</test>
+</suite>
